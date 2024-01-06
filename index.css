@@ -6,10 +6,11 @@ nav {
     flex-direction: row;
     justify-content: right;
     line-height: 70px;
+    margin: 10px 14px;
 }
 
 .itens-menu {
-    padding: 0px 20px;
+    padding: 0px 15px;
     display: flex;
     align-items: center;
 }
@@ -111,4 +112,32 @@ section {
     position: relative;
     margin-top: -80px;
     margin-left: 8px;      
+}
+
+.sites-group {
+    width: 690px;
+    height: 202px;
+    border: 0px solid #E6DDDD;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;    
+}
+
+.back-icon {
+    width: 91px;
+    height: 91px;
+    border: 0px solid #E6DDDD;
+    margin-right: 47px;
+    margin-bottom: 20px;
+}
+
+.img-icon {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
 }
