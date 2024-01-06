@@ -26,6 +26,10 @@ nav {
 section {
     font-family: 'Open Sans', sans-serif;
     font-size: 128px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -6.4px;
     display: flex;
     box-sizing: border-box;
     flex-direction: row;
@@ -65,9 +69,31 @@ section {
 .barra-pesquisa {
     width: 828px;
     height: 73px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: left;
     margin: auto;
     border: 1px solid #E6DDDD;
     border-radius: 35px;
     box-shadow: 2px 2px 6px 0px #E6DDDD;
-    
+
+}
+
+.icon-search {
+    position: relative;
+    margin-top: -84px;
+    margin-left: 28px;
+}
+
+.text-search {
+    color: #9A9494;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    margin-left: 24px;
+    margin-top: 23px;
 }
