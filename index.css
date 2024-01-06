@@ -40,7 +40,7 @@ section {
     justify-content: center;
     margin: auto;
     width: 50%;
-    margin-top: 70px;
+    margin-top: 40px;
     /* border: 3px solid green;
      padding: 10px; 
     */
@@ -125,7 +125,7 @@ section {
     align-content: flex-start;
     justify-content: flex-start;
     display: flex;
-    align-items: center;    
+    /*align-items: center;*/    
 }
 
 .back-icon {
@@ -140,4 +140,45 @@ section {
     position: absolute;
     margin-top: 0px;
     margin-left: 0px;
+}
+
+footer {
+    border: 0px solid #CEC4C4;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-top: 15px;
+    margin-right: 14px;
+}
+
+.rectangle2 {
+    width: 230px;
+    height: 43px;
+    border-radius: 35px;
+    border: 1px solid #E6DDDD;
+    background: #FFF;
+    box-shadow: 0px 3px 6px 0px #CEC4C4;
+    text-align: left;
+    
+}
+
+.edit {
+    position: absolute;
+    margin-top: 6px;
+    margin-left: 15px;    
+}
+
+.personalize {
+    color: #5B90D9;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.8px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 50px;
 }
