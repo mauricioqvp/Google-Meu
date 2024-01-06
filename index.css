@@ -1,0 +1,63 @@
+nav {
+    width: 100%;
+    /*background-color: antiquewhite;*/
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: right;
+    line-height: 70px;
+}
+
+.itens-menu {
+    padding: 0px 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+}
+
+.itens-menu a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+section {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 128px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+    margin-top: 70px;
+    /* border: 3px solid green;
+     padding: 10px; 
+    */
+}
+
+.letraG {
+    color: #229AF2;
+}
+
+.letrao1 {
+    color: #FB4848;
+}
+
+.letrao2 {
+    color: #EBD400;
+}
+
+.letrag {
+    color: #229AF2;
+}
+
+.letral {
+    color: #429E16;
+}
+
+.letrae {
+    color: #FB4848;
+}
