@@ -61,3 +61,13 @@ section {
 .letrae {
     color: #FB4848;
 }
+
+.barra-pesquisa {
+    width: 828px;
+    height: 73px;
+    margin: auto;
+    border: 1px solid #E6DDDD;
+    border-radius: 35px;
+    box-shadow: 2px 2px 6px 0px #E6DDDD;
+    
+}
